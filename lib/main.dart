@@ -12,6 +12,7 @@ class CalculatorApp extends StatelessWidget {
         brightness: Brightness.dark,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      debugShowCheckedModeBanner: false,
       home: CalculatorHomePage(),
     );
   }
