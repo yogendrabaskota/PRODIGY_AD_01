@@ -8,7 +8,7 @@ class CalculatorApp extends StatelessWidget {
     return MaterialApp(
       title: 'Calculator',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blue, 
         brightness: Brightness.dark,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
@@ -30,7 +30,7 @@ class _CalculatorHomePageState extends State<CalculatorHomePage> {
   double num2 = 0;
   String operand = "";
 
-  void buttonPressed(String buttonText) {
+  void buttonPressed(String buttonText) { 
     if (buttonText == "CLEAR") {
       _output = "0";
       num1 = 0;
