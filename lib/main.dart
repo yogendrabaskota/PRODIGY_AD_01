@@ -45,20 +45,20 @@ class _CalculatorHomePageState extends State<CalculatorHomePage> {
         _output += buttonText;
       }
     } else if (buttonText == "=") {
-      num2 = double.parse(output);
+      num2 = double.parse(output); 
 
       switch (operand) {
         case "+":
           _output = (num1 + num2).toString();
           break;
         case "-":
-          _output = (num1 - num2).toString();
+          _output = (num1 - num2).toString(); 
           break;
         case "×":
-          _output = (num1 * num2).toString();
+          _output = (num1 * num2).toString(); 
           break;
         case "÷":
-          _output = (num1 / num2).toString();
+          _output = (num1 / num2).toString(); 
           break;
         default:
           return;
@@ -69,9 +69,9 @@ class _CalculatorHomePageState extends State<CalculatorHomePage> {
       operand = "";
     } else {
       if (_output == "0") {
-        _output = buttonText;
+        _output = buttonText; 
       } else {
-        _output += buttonText;
+        _output += buttonText; 
       }
     }
 
